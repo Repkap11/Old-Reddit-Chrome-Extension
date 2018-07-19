@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Force Old Reddit",
+  "permissions": ["webRequest","webRequestBlocking","*://*.reddit.com/*"],
+  "description": "Replace the reddit.com with old.reddit.com",
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
